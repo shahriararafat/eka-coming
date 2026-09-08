@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#060608">
+  <meta name="color-scheme" content="dark">
+
+  <title>EKA AI — Every AI. One Workspace.</title>
+  <meta name="description" content="EKA AI brings every top AI model into a single unified workspace with local Bangladeshi payments. Coming soon to eka.bd.">
+  <meta name="keywords" content="EKA AI, AI workspace Bangladesh, GPT-4o Bangladesh, Claude Bangladesh, bKash AI, Nagad AI, deshi payments AI, eka.bd">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="EKA AI — Every AI. One Workspace.">
+  <meta property="og:description" content="Something powerful is coming to eka.bd.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://eka.bd">
+  <meta property="og:site_name" content="EKA AI">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="EKA AI — Coming Soon">
+  <meta name="twitter:description" content="Every AI. One Workspace. Coming soon to eka.bd.">
+  <meta name="twitter:creator" content="@ekaaiBD">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500&display=swap">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ─────────────────────────────────────────────────────────
+       NAVIGATION
+  ───────────────────────────────────────────────────────────── -->
+  <header class="nav" role="banner" id="top">
+    <a class="nav__logo" href="#top" aria-label="EKA AI – scroll to top">
+      <svg class="nav__mark" width="22" height="17" viewBox="0 0 22 17" aria-hidden="true" focusable="false">
+        <rect x="0" y="0" width="22" height="2.5" rx="1.25" fill="currentColor"/>
+        <rect x="0" y="7.25" width="14.5" height="2.5" rx="1.25" fill="currentColor" opacity="0.68"/>
+        <rect x="0" y="14.5" width="22" height="2.5" rx="1.25" fill="currentColor"/>
+      </svg>
+      <span class="nav__wordmark">
+        <span class="nav__eka">EKA</span><span class="nav__ai">AI</span>
+      </span>
+    </a>
+
+    <div class="nav__actions">
+      <a href="https://x.com/ekaaiBD" target="_blank" rel="noopener noreferrer"
+         class="btn-follow" aria-label="Follow EKA AI on X (Twitter)">
+        <svg width="13" height="13" viewBox="0 0 13 13" fill="currentColor" aria-hidden="true">
+          <path d="M7.3 5.523 11.35 0H10.3L6.84 4.793 3.89 0H.7l4.27 6.21L.7 12.04h1.05l3.73-4.337 2.98 4.337H11.3L7.3 5.523zm-1.32 1.534-.432-.618L2.1.878h1.48l2.778 3.976.432.618 3.608 5.163H8.92L5.98 7.057z"/>
+        </svg>
+        <span class="btn-follow__text">Follow EKA</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ─────────────────────────────────────────────────────────
+         HERO
+    ───────────────────────────────────────────────────────────── -->
+    <section class="hero" id="hero" aria-labelledby="hero-headline">
+
+      <!-- Background layers -->
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__grid"></div>
+        <div class="hero__bloom"></div>
+        <div class="hero__fade"></div>
+      </div>
+
+      <!-- Floating model chips (decorative, depth controls parallax intensity) -->
+      <div class="hero__chips" aria-hidden="true">
+
+        <div class="chip-wrap" data-depth="2"
+             style="top:12%;left:4%;--delay:1.0s">
+          <div class="chip-drift" style="animation-name:floatA;animation-delay:0s">
+            <div class="chip"><span class="chip__dot"></span>GPT-4o</div>
+          </div>
+        </div>
+
+        <div class="chip-wrap chip-wrap--r" data-depth="3"
+             style="top:16%;left:80%;--delay:1.15s">
+          <div class="chip-drift" style="animation-name:floatB;animation-delay:0.8s">
+            <div class="chip"><span class="chip__dot"></span>Claude 3.5</div>
+          </div>
+        </div>
+
+        <div class="chip-wrap" data-depth="2"
+             style="top:66%;left:3%;--delay:1.3s">
+          <div class="chip-drift" style="animation-name:floatC;animation-delay:1.2s">
+            <div class="chip"><span class="chip__dot"></span>Gemini 1.5</div>
+          </div>
+        </div>
+
+        <div class="chip-wrap chip-wrap--r" data-depth="4"
+             style="top:71%;left:79%;--delay:1.1s">
+          <div class="chip-drift" style="animation-name:floatA;animation-delay:0.4s">
+            <div class="chip"><span class="chip__dot"></span>Llama 3.1</div>
+          </div>
+        </div>
+
+        <div class="chip-wrap chip-wrap--top" data-depth="1"
+             style="top:7%;left:54%;--delay:1.25s">
+          <div class="chip-drift" style="animation-name:floatB;animation-delay:1.6s">
+            <div class="chip"><span class="chip__dot"></span>Mistral</div>
+          </div>
+        </div>
+
+        <div class="chip-wrap chip-wrap--bot" data-depth="3"
+             style="top:83%;left:27%;--delay:1.4s">
+          <div class="chip-drift" style="animation-name:floatC;animation-delay:0.6s">
+            <div class="chip"><span class="chip__dot"></span>DALL·E 3</div>
+          </div>
+        </div>
+
+        <div class="chip-wrap chip-wrap--r" data-depth="2"
+             style="top:36%;left:90%;--delay:1.2s">
+          <div class="chip-drift" style="animation-name:floatA;animation-delay:1.0s">
+            <div class="chip"><span class="chip__dot"></span>Grok 2</div>
+          </div>
+        </div>
+
+        <div class="chip-wrap chip-wrap--bot" data-depth="1"
+             style="top:87%;left:60%;--delay:1.5s">
+          <div class="chip-drift" style="animation-name:floatB;animation-delay:1.4s">
+            <div class="chip"><span class="chip__dot"></span>Perplexity</div>
+          </div>
+        </div>
+
+        <div class="chip-wrap" data-depth="4"
+             style="top:47%;left:1%;--delay:1.35s">
+          <div class="chip-drift" style="animation-name:floatC;animation-delay:0.2s">
+            <div class="chip"><span class="chip__dot"></span>Command R+</div>
+          </div>
+        </div>
+
+      </div><!-- /.hero__chips -->
+
+      <!-- Hero content -->
+      <div class="hero__content">
+
+        <div class="hero__badge reveal-hero" style="--reveal-delay:0ms">
+          <span class="badge__pulse"></span>
+          <span class="badge__label">COMING SOON</span>
+        </div>
+
+        <h1 class="hero__headline reveal-hero" id="hero-headline" style="--reveal-delay:90ms">
+          <span class="headline-row">Every AI.</span>
+          <span class="headline-row headline-row--dim">One Workspace.</span>
+        </h1>
+
+        <p class="hero__sub reveal-hero" style="--reveal-delay:190ms">
+          Something powerful is coming to&nbsp;<strong class="hero__domain-em">eka.bd</strong>
+        </p>
+
+        <p class="hero__domain-tag reveal-hero" style="--reveal-delay:300ms">eka.bd</p>
+
+      </div><!-- /.hero__content -->
+
+      <!-- Scroll cue -->
+      <div class="hero__scroll-cue reveal-hero" style="--reveal-delay:520ms" aria-hidden="true">
+        <div class="hero__scroll-inner">
+          <svg width="18" height="10" viewBox="0 0 18 10" fill="none">
+            <path d="M1.5 1.5L9 8.5L16.5 1.5" stroke="currentColor" stroke-width="1.5"
+                  stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+
+    </section><!-- /.hero -->
+
+
+    <!-- ─────────────────────────────────────────────────────────
+         COUNTDOWN
+    ───────────────────────────────────────────────────────────── -->
+    <section class="countdown-section" id="countdown" aria-label="Launch countdown">
+      <div class="container">
+        <div class="section-rule" aria-hidden="true"></div>
+
+        <p class="countdown__label" id="countdown-label">Launching in</p>
+
+        <div class="countdown" role="timer" aria-labelledby="countdown-label" aria-live="polite" aria-atomic="true">
+          <div class="countdown__unit">
+            <span class="countdown__num" id="cd-days">00</span>
+            <span class="countdown__lbl">Days</span>
+          </div>
+          <span class="countdown__sep" aria-hidden="true">·</span>
+          <div class="countdown__unit">
+            <span class="countdown__num" id="cd-hours">00</span>
+            <span class="countdown__lbl">Hrs</span>
+          </div>
+          <span class="countdown__sep" aria-hidden="true">·</span>
+          <div class="countdown__unit">
+            <span class="countdown__num" id="cd-mins">00</span>
+            <span class="countdown__lbl">Min</span>
+          </div>
+          <span class="countdown__sep" aria-hidden="true">·</span>
+          <div class="countdown__unit">
+            <span class="countdown__num" id="cd-secs">00</span>
+            <span class="countdown__lbl">Sec</span>
+          </div>
+        </div>
+
+        <div class="section-rule" aria-hidden="true"></div>
+      </div>
+    </section>
+
+
+    <!-- ─────────────────────────────────────────────────────────
+         WHAT'S COMING
+    ───────────────────────────────────────────────────────────── -->
+    <section class="features" id="features" aria-labelledby="features-heading">
+      <div class="container">
+
+        <header class="section-header reveal-elem">
+          <p class="section-eyebrow">What's coming</p>
+          <h2 class="section-title" id="features-heading">
+            Built for how you<br>actually work with&nbsp;AI.
+          </h2>
+        </header>
+
+        <div class="feature-list">
+
+          <div class="feature-item reveal-elem" style="--item-delay:0ms">
+            <div class="feature-item__rule"></div>
+            <div class="feature-item__body">
+              <span class="feature-item__num">01</span>
+              <div class="feature-item__content">
+                <h3 class="feature-item__title">Multiple Top AI Models</h3>
+                <p class="feature-item__desc">Access GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, and many more — all under a single subscription.</p>
+              </div>
+              <span class="feature-item__tag feature-item__tag--models">Models</span>
+            </div>
+          </div>
+
+          <div class="feature-item reveal-elem" style="--item-delay:80ms">
+            <div class="feature-item__rule"></div>
+            <div class="feature-item__body">
+              <span class="feature-item__num">02</span>
+              <div class="feature-item__content">
+                <h3 class="feature-item__title">One Unified Workspace</h3>
+                <p class="feature-item__desc">Switch between models in one thread. Compare outputs. Build workflows. No tab-switching, no context loss.</p>
+              </div>
+              <span class="feature-item__tag feature-item__tag--workspace">Workspace</span>
+            </div>
+          </div>
+
+          <div class="feature-item reveal-elem" style="--item-delay:160ms">
+            <div class="feature-item__rule"></div>
+            <div class="feature-item__body">
+              <span class="feature-item__num">03</span>
+              <div class="feature-item__content">
+                <h3 class="feature-item__title">Deshi Payments</h3>
+                <p class="feature-item__desc">Pay with bKash, Nagad, Rocket, and local cards. Built for Bangladesh from the ground up — no USD card required.</p>
+              </div>
+              <span class="feature-item__tag feature-item__tag--payments">Payments</span>
+            </div>
+          </div>
+
+          <div class="feature-item reveal-elem" style="--item-delay:240ms">
+            <div class="feature-item__rule"></div>
+            <div class="feature-item__body">
+              <span class="feature-item__num">04</span>
+              <div class="feature-item__content">
+                <h3 class="feature-item__title">AI Tools &amp; Deep Research</h3>
+                <p class="feature-item__desc">Web search, image generation, document analysis, and deep research — all integrated natively into your workspace.</p>
+              </div>
+              <span class="feature-item__tag feature-item__tag--tools">Tools</span>
+            </div>
+          </div>
+
+          <!-- Terminal rule -->
+          <div class="feature-item__rule feature-item__rule--last"></div>
+
+        </div><!-- /.feature-list -->
+      </div>
+    </section>
+
+
+    <!-- ─────────────────────────────────────────────────────────
+         MODEL WALL — Many models → EKA workspace
+    ───────────────────────────────────────────────────────────── -->
+    <section class="model-wall" id="model-wall" aria-labelledby="model-wall-heading">
+      <div class="container">
+
+        <header class="section-header reveal-elem">
+          <p class="section-eyebrow">The workspace</p>
+          <h2 class="section-title" id="model-wall-heading">
+            Many models.<br><span class="text-dim">One workspace.</span>
+          </h2>
+        </header>
+
+        <!-- Desktop/Tablet: SVG radial visualization -->
+        <!--
+          Geometry:
+            ViewBox: 640 × 550   |   Center: (320, 275)
+            Inner ring radius: 138   |   Outer ring radius: 228
+        -->
+        <div class="model-wall__svg-wrap" id="model-wall-container">
+          <svg class="model-wall__svg"
+               viewBox="0 0 640 550"
+               xmlns="http://www.w3.org/2000/svg"
+               role="img"
+               aria-label="AI models including GPT-4o, Claude, Gemini, Llama, Mistral, DALL-E, Grok, Command R+, Perplexity, and Stable Diffusion converging into EKA AI workspace">
+
+            <!-- Orbital guide rings -->
+            <circle class="orbit-ring" cx="320" cy="275" r="138"/>
+            <circle class="orbit-ring orbit-ring--outer" cx="320" cy="275" r="228"/>
+
+            <!-- ── Connection lines ─────────────────────────────── -->
+            <!-- Inner connections (stroke-dasharray = inner radius = 138) -->
+            <line class="conn" data-idx="0"
+                  x1="320" y1="275" x2="320" y2="137"
+                  style="stroke-dasharray:138;stroke-dashoffset:138;"/>
+            <line class="conn" data-idx="1"
+                  x1="320" y1="275" x2="458" y2="275"
+                  style="stroke-dasharray:138;stroke-dashoffset:138;"/>
+            <line class="conn" data-idx="2"
+                  x1="320" y1="275" x2="320" y2="413"
+                  style="stroke-dasharray:138;stroke-dashoffset:138;"/>
+            <line class="conn" data-idx="3"
+                  x1="320" y1="275" x2="182" y2="275"
+                  style="stroke-dasharray:138;stroke-dashoffset:138;"/>
+
+            <!-- Outer connections (stroke-dasharray = outer radius ≈ 228) -->
+            <line class="conn" data-idx="4"
+                  x1="320" y1="275" x2="320" y2="47"
+                  style="stroke-dasharray:228;stroke-dashoffset:228;"/>
+            <line class="conn" data-idx="5"
+                  x1="320" y1="275" x2="517" y2="161"
+                  style="stroke-dasharray:228;stroke-dashoffset:228;"/>
+            <line class="conn" data-idx="6"
+                  x1="320" y1="275" x2="517" y2="389"
+                  style="stroke-dasharray:228;stroke-dashoffset:228;"/>
+            <line class="conn" data-idx="7"
+                  x1="320" y1="275" x2="320" y2="503"
+                  style="stroke-dasharray:228;stroke-dashoffset:228;"/>
+            <line class="conn" data-idx="8"
+                  x1="320" y1="275" x2="123" y2="389"
+                  style="stroke-dasharray:228;stroke-dashoffset:228;"/>
+            <line class="conn" data-idx="9"
+                  x1="320" y1="275" x2="123" y2="161"
+                  style="stroke-dasharray:228;stroke-dashoffset:228;"/>
+
+            <!-- ── Center EKA Hub ──────────────────────────────── -->
+            <g class="hub-group" id="hub-group">
+              <circle cx="320" cy="275" r="54" fill="rgba(124,124,248,0.045)"/>
+              <circle cx="320" cy="275" r="44" fill="#0D0D12" stroke="rgba(124,124,248,0.22)" stroke-width="1"/>
+              <circle cx="320" cy="275" r="36" fill="#0D0D12" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+              <!-- EKA wordmark centered at hub -->
+              <text x="315" y="283" class="hub-eka" text-anchor="middle">EKA</text>
+              <text x="334" y="272" class="hub-ai">AI</text>
+            </g>
+
+            <!-- ── Inner Ring Chips (r = 138) ─────────────────── -->
+
+            <!-- GPT-4o — top (320, 137) -->
+            <g class="chip-grp" data-conn="0" tabindex="0" role="listitem"
+               aria-label="GPT-4o by OpenAI" style="--chip-delay:400ms">
+              <rect class="chip-bg" x="265" y="119" width="110" height="36" rx="18"/>
+              <circle cx="283" cy="137" r="3" fill="rgba(124,124,248,0.6)"/>
+              <text x="291" y="133" class="chip-name">GPT-4o</text>
+              <text x="291" y="146" class="chip-prov">OpenAI</text>
+            </g>
+
+            <!-- Claude 3.5 — right (458, 275) -->
+            <g class="chip-grp" data-conn="1" tabindex="0" role="listitem"
+               aria-label="Claude 3.5 by Anthropic" style="--chip-delay:470ms">
+              <rect class="chip-bg" x="403" y="257" width="110" height="36" rx="18"/>
+              <circle cx="421" cy="275" r="3" fill="rgba(124,124,248,0.6)"/>
+              <text x="429" y="271" class="chip-name">Claude 3.5</text>
+              <text x="429" y="284" class="chip-prov">Anthropic</text>
+            </g>
+
+            <!-- Gemini 1.5 — bottom (320, 413) -->
+            <g class="chip-grp" data-conn="2" tabindex="0" role="listitem"
+               aria-label="Gemini 1.5 by Google" style="--chip-delay:540ms">
+              <rect class="chip-bg" x="265" y="395" width="110" height="36" rx="18"/>
+              <circle cx="283" cy="413" r="3" fill="rgba(124,124,248,0.6)"/>
+              <text x="291" y="409" class="chip-name">Gemini 1.5</text>
+              <text x="291" y="422" class="chip-prov">Google</text>
+            </g>
+
+            <!-- Llama 3.1 — left (182, 275) -->
+            <g class="chip-grp" data-conn="3" tabindex="0" role="listitem"
+               aria-label="Llama 3.1 by Meta" style="--chip-delay:610ms">
+              <rect class="chip-bg" x="127" y="257" width="110" height="36" rx="18"/>
+              <circle cx="145" cy="275" r="3" fill="rgba(124,124,248,0.6)"/>
+              <text x="153" y="271" class="chip-name">Llama 3.1</text>
+              <text x="153" y="284" class="chip-prov">Meta</text>
+            </g>
+
+            <!-- ── Outer Ring Chips (r = 228) ─────────────────── -->
+
+            <!-- Mistral — top (320, 47) -->
+            <g class="chip-grp" data-conn="4" tabindex="0" role="listitem"
+               aria-label="Mistral by Mistral AI" style="--chip-delay:680ms">
+              <rect class="chip-bg" x="265" y="29" width="110" height="36" rx="18"/>
+              <circle cx="283" cy="47" r="3" fill="rgba(124,124,248,0.6)"/>
+              <text x="291" y="43" class="chip-name">Mistral</text>
+              <text x="291" y="56" class="chip-prov">Mistral AI</text>
+            </g>
+
+            <!-- DALL·E 3 — top-right (517, 161) -->
+            <g class="chip-grp" data-conn="5" tabindex="0" role="listitem"
+               aria-label="DALL-E 3 by OpenAI" style="--chip-delay:750ms">
+              <rect class="chip-bg" x="462" y="143" width="110" height="36" rx="18"/>
+              <circle cx="480" cy="161" r="3" fill="rgba(124,124,248,0.6)"/>
+              <text x="488" y="157" class="chip-name">DALL·E 3</text>
+              <text x="488" y="170" class="chip-prov">OpenAI</text>
+            </g>
+
+            <!-- Grok 2 — bottom-right (517, 389) -->
+            <g class="chip-grp" data-conn="6" tabindex="0" role="listitem"
+               aria-label="Grok 2 by xAI" style="--chip-delay:820ms">
+              <rect class="chip-bg" x="462" y="371" width="110" height="36" rx="18"/>
+              <circle cx="480" cy="389" r="3" fill="rgba(124,124,248,0.6)"/>
+              <text x="488" y="385" class="chip-name">Grok 2</text>
+              <text x="488" y="398" class="chip-prov">xAI</text>
+            </g>
+
+            <!-- Command R+ — bottom (320, 503) -->
+            <g class="chip-grp" data-conn="7" tabindex="0" role="listitem"
+               aria-label="Command R+ by Cohere" style="--chip-delay:890ms">
+              <rect class="chip-bg" x="265" y="485" width="110" height="36" rx="18"/>
+              <circle cx="283" cy="503" r="3" fill="rgba(124,124,248,0.6)"/>
+              <text x="291" y="499" class="chip-name">Command R+</text>
+              <text x="291" y="512" class="chip-prov">Cohere</text>
+            </g>
+
+            <!-- Perplexity — bottom-left (123, 389) -->
+            <g class="chip-grp" data-conn="8" tabindex="0" role="listitem"
+               aria-label="Perplexity Sonar" style="--chip-delay:960ms">
+              <rect class="chip-bg" x="68" y="371" width="110" height="36" rx="18"/>
+              <circle cx="86" cy="389" r="3" fill="rgba(124,124,248,0.6)"/>
+              <text x="94" y="385" class="chip-name">Perplexity</text>
+              <text x="94" y="398" class="chip-prov">Perplexity AI</text>
+            </g>
+
+            <!-- Stable Diffusion — top-left (123, 161) -->
+            <g class="chip-grp" data-conn="9" tabindex="0" role="listitem"
+               aria-label="Stable Diffusion by Stability AI" style="--chip-delay:1030ms">
+              <rect class="chip-bg" x="68" y="143" width="110" height="36" rx="18"/>
+              <circle cx="86" cy="161" r="3" fill="rgba(124,124,248,0.6)"/>
+              <text x="94" y="157" class="chip-name">Stable Diff</text>
+              <text x="94" y="170" class="chip-prov">Stability AI</text>
+            </g>
+
+          </svg>
+        </div><!-- /.model-wall__svg-wrap -->
+
+        <!-- Mobile: simplified convergence list -->
+        <div class="model-wall__mobile">
+          <div class="mobile-model-grid">
+            <div class="mobile-chip">GPT-4o</div>
+            <div class="mobile-chip">Claude 3.5</div>
+            <div class="mobile-chip">Gemini 1.5</div>
+            <div class="mobile-chip">Llama 3.1</div>
+            <div class="mobile-chip">Mistral</div>
+            <div class="mobile-chip">DALL·E 3</div>
+            <div class="mobile-chip">Grok 2</div>
+            <div class="mobile-chip">Command R+</div>
+          </div>
+          <div class="mobile-arrow" aria-hidden="true">
+            <div class="mobile-arrow__line"></div>
+            <svg width="10" height="7" viewBox="0 0 10 7" fill="none">
+              <path d="M1 1l4 4.5L9 1" stroke="rgba(124,124,248,0.6)" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="mobile-hub">
+            <span class="mobile-hub__eka">EKA</span><span class="mobile-hub__ai">AI</span>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- /.model-wall -->
+
+
+    <!-- ─────────────────────────────────────────────────────────
+         LAUNCH PROGRESS
+    ───────────────────────────────────────────────────────────── -->
+    <section class="progress-section" aria-label="Launch preparation status">
+      <div class="container">
+        <div class="progress-wrap reveal-elem">
+          <div class="progress-header">
+            <span class="progress-pulse" aria-hidden="true"></span>
+            <span class="progress-label">Preparing EKA for launch</span>
+          </div>
+          <div class="progress-steps">
+            <div class="progress-step progress-step--done">
+              <div class="progress-step__icon">
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true">
+                  <path d="M2 5l2.5 2.5 3.5-4" stroke="rgba(124,124,248,0.7)"
+                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <span>Infrastructure ready</span>
+              <div class="progress-step__bar"><div class="progress-step__fill" style="--fill:100%"></div></div>
+            </div>
+            <div class="progress-step progress-step--done">
+              <div class="progress-step__icon">
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true">
+                  <path d="M2 5l2.5 2.5 3.5-4" stroke="rgba(124,124,248,0.7)"
+                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <span>AI integrations connected</span>
+              <div class="progress-step__bar"><div class="progress-step__fill" style="--fill:100%"></div></div>
+            </div>
+            <div class="progress-step progress-step--active">
+              <div class="progress-step__icon progress-step__icon--dot"></div>
+              <span>Payment gateway testing</span>
+              <div class="progress-step__bar"><div class="progress-step__fill" style="--fill:82%"></div></div>
+            </div>
+            <div class="progress-step">
+              <div class="progress-step__icon progress-step__icon--empty"></div>
+              <span>Final QA &amp; launch</span>
+              <div class="progress-step__bar"><div class="progress-step__fill" style="--fill:35%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─────────────────────────────────────────────────────────
+       FOOTER
+  ───────────────────────────────────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+
+      <div class="footer__top-accent" aria-hidden="true"></div>
+
+      <div class="footer__layout">
+        <div class="footer__brand">
+          <a class="footer__logo" href="#top" aria-label="EKA AI">
+            <svg class="nav__mark" width="19" height="15" viewBox="0 0 22 17" aria-hidden="true" focusable="false">
+              <rect x="0" y="0" width="22" height="2.5" rx="1.25" fill="currentColor"/>
+              <rect x="0" y="7.25" width="14.5" height="2.5" rx="1.25" fill="currentColor" opacity="0.68"/>
+              <rect x="0" y="14.5" width="22" height="2.5" rx="1.25" fill="currentColor"/>
+            </svg>
+            <span class="nav__wordmark">
+              <span class="nav__eka">EKA</span><span class="nav__ai">AI</span>
+            </span>
+          </a>
+          <p class="footer__domain">eka.bd</p>
+        </div>
+
+        <nav class="footer__links" aria-label="Footer navigation">
+          <a href="mailto:hello@eka.bd" class="footer__link">Contact</a>
+          <a href="#" class="footer__link">Privacy</a>
+          <a href="#" class="footer__link">Terms</a>
+          <span class="footer__divider" aria-hidden="true"></span>
+          <a href="https://x.com/ekaaiBD" target="_blank" rel="noopener noreferrer"
+             class="footer__social" aria-label="Follow on X">
+            <svg width="14" height="14" viewBox="0 0 13 13" fill="currentColor" aria-hidden="true">
+              <path d="M7.3 5.523 11.35 0H10.3L6.84 4.793 3.89 0H.7l4.27 6.21L.7 12.04h1.05l3.73-4.337 2.98 4.337H11.3L7.3 5.523zm-1.32 1.534-.432-.618L2.1.878h1.48l2.778 3.976.432.618 3.608 5.163H8.92L5.98 7.057z"/>
+            </svg>
+          </a>
+          <a href="https://facebook.com/ekaaiBD" target="_blank" rel="noopener noreferrer"
+             class="footer__social" aria-label="Follow on Facebook">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true">
+              <path d="M14 7A7 7 0 1 0 5.906 13.934V9.01H4.132V7H5.906V5.455c0-1.754 1.046-2.723 2.644-2.723.766 0 1.567.137 1.567.137V4.6h-.882c-.869 0-1.14.54-1.14 1.094V7h1.938l-.31 2.01H8.094v4.924A7.003 7.003 0 0 0 14 7z"/>
+            </svg>
+          </a>
+        </nav>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; <span id="footer-year">2025</span> EKA AI. All rights reserved.</p>
+        <p class="footer__tagline">Every AI. One Workspace.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
