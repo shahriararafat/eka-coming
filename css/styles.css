@@ -139,6 +139,14 @@ strong { font-weight: 600; }
 }
 .nav__logo:hover, .footer__logo:hover { opacity: 0.75; }
 
+.nav__logo-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 6px;
+  filter: drop-shadow(0 0 10px rgba(124, 124, 248, 0.35));
+}
+
 .nav__wordmark {
   display: flex;
   align-items: baseline;
